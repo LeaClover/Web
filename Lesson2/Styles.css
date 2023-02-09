@@ -1,0 +1,138 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 150px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #d2d2d2;
+    font-size: 25px;
+    background-image: url(img/bbb.jpg);
+    background-position: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Shaltai;
+    color: darkorange;
+    text-shadow: 2px 2px 1px black;
+}
+
+p, ul, li {
+    font-size: 20px;
+    color:#062e69;
+    text-align: justify;
+    margin: 0px 20px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.container {
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block {
+    height: 300px;
+    width: 350px;
+    border: 1px solid #d2d2d2;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    background-image: url(img/bbb.jpg);
+    background-position: center;
+}
+
+.block_text_header {
+    font-size: 40px;
+    text-align: left;
+    height: 50px;
+    width: 1000px;
+    margin: 30px auto;
+    text-shadow: 2px 2px 1px white;
+}
+
+.block_space {
+    font-size: 20px;
+    text-align: right;
+    font-family: Cartoon1471;
+    color:#062e69;
+    height: 40px;
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 10px 0px 0px 0px;
+}
+
+.button_header {
+    font-size: 18px;
+    font-family: Cartoon1471;
+    text-align: center;
+    height: 30px;
+    width: 150px;
+    margin-bottom: 20px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 10px;
+    border: 1.5px solid #062e69;
+    background-color: #ffffff;
+}
+
+.button {
+    font-size: 25px;
+    font-family: Cartoon1471;
+    text-align: center;
+    height: 30px;
+    width: 300px;
+    margin: -4px auto;
+    padding: 5px 0px 0px 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 2px solid #062e69;
+}
+
+.container {
+    width: 1200px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    text-align: center;
+    font-family: Cartoon1471;
+    color:#062e69;
+    /* margin: 50px auto; */
+}
+
+a {
+    text-decoration: double;
+    color:#062e69
+}
+
+.block_footer {
+    height: 40px;
+    width: 40px;
+    /* border: 1px solid #000000; */
+    border-radius: 10px;
+}
+
+.footer {
+    border: 1px solid #d2d2d2;
+    background-image: url(img/bbb.jpg);
+    background-position: bottom;
+    height: 150px;
+    padding-top: 30px;
+}
+
+.rightpic {
+    float: right;
+    margin: 95px 50px 0px 0px;
+}
